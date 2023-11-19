@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "Will Fischer - Master Builder",
   "scripts": {
-    "build": "tailwindcss build assets/css/style.css -o assets/css/tw.css",
+    "build": "postcss style.css -o assets/css/tw.css && cuttlebelle && mv site gh-pages",
     "watch:css": "postcss style.css -o assets/css/tw.css -w"
   },
   "author": "Will Fischer",
