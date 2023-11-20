@@ -1,10 +1,24 @@
+@font-face {
+  font-family: 'Karla';
+  src: url('/assets/fonts/Karla-VariableFont_wght.ttf') format('truetype');
+}
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
-/* Global styles */
+@layer base {
+  html {
+    @apply antialiased;
+  }
+
+  body {
+    @apply font-sans;
+  }
+}
+
 body {
-  @apply bg-gray-100 text-gray-800;
+  @apply bg-slate-100 text-slate-800;
 }
 
 h1 {

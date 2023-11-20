@@ -4,6 +4,8 @@
   "description": "Will Fischer - Master Builder",
   "scripts": {
     "build": "postcss style.css -o assets/css/tw.css && cuttlebelle && mv site docs",
+    "build:css": "postcss style.css -o assets/css/tw.css",
+    "watch": "postcss style.css -o assets/css/tw.css -w & cuttlebelle watch",
     "watch:css": "postcss style.css -o assets/css/tw.css -w"
   },
   "author": "Will Fischer",
