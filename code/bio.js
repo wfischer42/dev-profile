@@ -16,7 +16,7 @@ const Partial = ({ name, image, linklist, title, location, _body, email }) => (
       <h1 className="font-extralight text-4xl mb-0">{name}</h1>
       <h2 className="text-7xl font-extrabold">{title}</h2>
       <div className="flex gap-2">
-        <img src="/assets/icons/location.svg" alt="location icon" className="w-6 h-6" />
+        <img src="assets/icons/location.svg" alt="location icon" className="w-6 h-6" />
         <div className="text-[#4C4A48]">{location}</div>
       </div>
     </div>
