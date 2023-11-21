@@ -14,8 +14,8 @@ const Page = ({ title, stylesheet, header, bio, script, _relativeURL, _ID }) => 
         <link rel="stylesheet" href={_relativeURL(`/assets/css/${stylesheet}.css`, _ID)} />
       ) : null}
     </head>
-    <body className="bg-stone-100">
-      <div className="top">
+    <body className="bg-neutral-100 pt-20">
+      <div className="top max-w-4xl w-full mx-auto border">
         <main>{bio}</main>
       </div>
       {script != undefined ? <script src={_relativeURL(`/assets/js/${script}.js`, _ID)} /> : null}

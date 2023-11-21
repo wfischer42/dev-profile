@@ -1,9 +1,6 @@
 import PropTypes from 'prop-types'
 import React from 'react'
 
-/**
- * The page layout component
- */
 const Page = ({ title, stylesheet, main, footer, script, _relativeURL, _ID }) => (
   <html>
     <head>
